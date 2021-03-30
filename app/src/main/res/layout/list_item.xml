@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/App_RL"
+    android:id="@+id/lay_item"
+    android:background="@color/Blue_Durty">
+
+    <ImageView
+        android:id="@+id/image_film"
+        style="@style/App_Image">
+    </ImageView>
+    <TextView
+        android:id="@+id/name_film"
+        style="@style/App_wrap"
+        android:layout_toEndOf="@id/image_film"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/Dark"
+        android:textSize="@dimen/large"
+        android:text="@string/text">
+    </TextView>
+    <TextView
+        android:id="@+id/year_film"
+        style="@style/App_wrap"
+        android:layout_below="@+id/name_film"
+        android:layout_toEndOf="@+id/image_film"
+        android:text="@string/text2"
+        android:textColor="@color/Red"
+        android:textSize="@dimen/medium">
+    </TextView>
+    <TextView
+        android:id="@+id/janre_film"
+        style="@style/App_wrap"
+        android:layout_below="@+id/year_film"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/image_film"
+        android:text="@string/text3"
+        android:textColor="@color/Grey"
+        android:textSize="@dimen/small">
+        <!--android:layout_below="@+id/year_film"-->
+    </TextView>
+
+</RelativeLayout>

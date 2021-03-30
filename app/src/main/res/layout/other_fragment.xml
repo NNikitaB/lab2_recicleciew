@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/App_RLL"
+    android:id="@+id/lay_item"
+    android:background="@color/Blue_Durty"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_film"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/name_film"
+        style="@style/App_wrap"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/Dark"
+        android:textSize="@dimen/large_max"
+        android:text="@string/text">
+    </TextView>
+    <TextView
+        android:id="@+id/year_film"
+        style="@style/App_wrap"
+        android:text="@string/text2"
+        android:textColor="@color/Yellow"
+        android:textSize="@dimen/medium">
+    </TextView>
+    <TextView
+        android:id="@+id/janre_film"
+        style="@style/App_wrap"
+        android:text="@string/text3"
+        android:textColor="@color/Grey"
+        android:textSize="@dimen/large">
+        <!--android:layout_below="@+id/year_film"-->
+    </TextView>
+    <TextView
+        android:id="@+id/prolog"
+        style="@style/App_wrap"
+        android:text="@string/text3"
+        android:textColor="@color/Grey"
+        android:textSize="@dimen/medium">
+        <!--android:layout_below="@+id/year_film"-->
+    </TextView>
+
+</LinearLayout>

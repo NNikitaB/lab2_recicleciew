@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">lab3_fragment</string>
+    <string name="text">text</string>
+    <string name="text2">Виды Layout в Android: LinearLayout, TableLayout, RelativeLayout, AbsoluteLayout.</string>
+    <string name="text3">LinearLayout, TableLayout, RelativeLayout, AbsoluteLayout.</string>
+</resources>
